@@ -1,1 +1,1 @@
-# Cpp-for-reading-QuantLib
+## QuantLibソースを読む為のC++基礎
