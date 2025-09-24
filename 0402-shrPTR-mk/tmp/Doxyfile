@@ -1,0 +1,31 @@
+PROJECT_NAME      = "sPTR"
+
+# input files
+
+INPUT             =  . 
+        
+FILE_PATTERNS     = *.cpp  *.h  *.hpp
+EXCLUDE           = bld
+
+# configuration options
+EXTRACT_ALL       = YES
+RECURSIVE         = YES
+GENERATE_HTML     = YES
+GENERATE_LATEX    = NO
+
+# Class
+CLASS_DIAGRAMS    = YES
+CLASS_GRAPH       = YES
+COLLABORATION_GRAPH = YES
+
+# Members
+SHOW_PUBLIC_MEMBERS    = YES
+SHOW_PROTECTED_MEMBERS = YES
+SHOW_PRIVATE_MEMBERS   = NO
+SHOW_STATIC_MEMBERS    = NO
+SHOW_VARIABLES         = YES
+SHOW_FUNCTIONS         = YES
+
+# Graphs
+HAVE_DOT          = YES
+INCLUDE_GRAPH     = YES
