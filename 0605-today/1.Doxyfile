@@ -1,0 +1,30 @@
+PROJECT_NAME = "r21a.cpp"
+# output
+HTML_OUTPUT  = html-1
+# input files
+INPUT        = r21a.cpp \
+    E:/local/QuantLib-1.37/ql/time/date.hpp \
+    E:/local/QuantLib-1.37/ql/settings.hpp \   
+    \
+    E:/local/QuantLib-1.37/ql/time/period.hpp \
+    E:/local/QuantLib-1.37/ql/time/weekday.hpp \
+    E:/local/QuantLib-1.37/ql/utilities/null.hpp \
+
+# Graphs
+HAVE_DOT            = YES
+INCLUDE_GRAPH       = YES
+UML_LOOK            = YES
+# configurations
+EXTRACT_ALL         = YES
+EXTRACT_PRIVATE     = YES
+EXTRACT_STATIC      = YES
+RECURSIVE           = YES
+GENERATE_HTML       = YES
+GENERATE_LATEX      = NO
+GENERATE_TESTLIST   = NO
+GENERATE_TODOLIST   = NO
+# Class
+CLASS_GRAPH         = YES
+COLLABORATION_GRAPH = YES
+SOURCE_BROWSER      = YES
+INLINE_SOURCES      = YES
