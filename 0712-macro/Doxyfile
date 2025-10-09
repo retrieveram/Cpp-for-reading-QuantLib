@@ -1,0 +1,26 @@
+PROJECT_NAME = "(r06.cpp) ql/errors.hpp"
+# output
+HTML_OUTPUT         = html
+
+# input files
+INPUT = r06.cpp \
+    E:/local/QuantLib-1.37/ql/errors.hpp \
+
+# Graphs
+HAVE_DOT            = YES
+INCLUDE_GRAPH       = YES
+UML_LOOK            = YES
+# configurations
+EXTRACT_ALL         = YES
+EXTRACT_PRIVATE     = YES
+EXTRACT_STATIC      = YES
+RECURSIVE           = YES
+GENERATE_HTML       = YES
+GENERATE_LATEX      = NO
+GENERATE_TESTLIST   = NO
+GENERATE_TODOLIST   = NO
+# Class
+CLASS_GRAPH         = YES
+COLLABORATION_GRAPH = YES
+SOURCE_BROWSER      = YES
+INLINE_SOURCES      = YES

@@ -1,0 +1,30 @@
+PROJECT_NAME = "exception"
+
+# input files
+INPUT = p110.cpp  \
+        tmp/exception.hpp  tmp/stdexcept.hpp \
+        tmp/yvals.h        tmp/yvals_core.h \
+# C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.43.34808\include\exception
+
+# output
+HTML_OUTPUT         = html
+
+# Graphs
+HAVE_DOT            = YES
+INCLUDE_GRAPH       = YES
+UML_LOOK            = YES
+#DOT_UML_DETAILS     = YES
+# configurations
+EXTRACT_ALL         = YES
+EXTRACT_PRIVATE     = YES
+EXTRACT_STATIC      = YES
+RECURSIVE           = YES
+GENERATE_HTML       = YES
+GENERATE_LATEX      = NO
+GENERATE_TESTLIST   = NO
+GENERATE_TODOLIST   = NO
+# Class
+CLASS_GRAPH         = YES
+COLLABORATION_GRAPH = YES
+SOURCE_BROWSER      = YES
+INLINE_SOURCES      = YES
